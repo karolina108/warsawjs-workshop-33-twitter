@@ -14,13 +14,30 @@ export default {
     },
     data(){
         return {
-            tweets: [
-                {id: "1", body: "To jest pierwszy tweet ;-)"},
-                {id: "2", body: "Code jest super"},
-                {id: "3", body: "Mój MacBook jest super"},
-                {id: "4", body: "Działa, ale nie wiem dlaczego"}
-            ]
+            tweets: []
         }
+    },
+    async mounted(){
+        console.log('app vue is ready');
+        const url = 'http://localhost:3000/tweets'
+
+        // make request - old way to do this:
+        // fetch(url)
+        //     .then((response) => {
+        //         return response.json();
+        //     })
+        //     .then((tweets) => {
+        //         this.tweets = tweets;
+        //     });
+
+        try {
+            const response = await fetch(url);
+            const tweets = await response.json();
+            this.tweets = tweets;
+        } catch (err) {
+            console.log(err);
+        }
+
     }
 }
 </script>

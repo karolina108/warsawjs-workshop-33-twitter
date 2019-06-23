@@ -1,0 +1,54 @@
+{
+    "tweets": [
+      {
+        "id": "982f1b93-a700-5afe-b30d-ed23c55ed05a",
+        "created_time": "Fri Jun 14 2019 17:30:52 GMT+0200 (CEST)",
+        "author": {
+          "id": "bacef232-441a-5730-9e4b-eba1ade4f36d",
+          "name": "Elisa Cassin",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/benoitboucart/128.jpg"
+        },
+        "body": "Hebzibze hew bimas mutoak woced ilauma puhviic ifeigla pab tu celmug zuvde wac waho jijnek lar zorrasu."
+      },
+      {
+        "id": "49ff44d7-dd8d-5ca5-af99-86a2324857a8",
+        "created_time": "Thu Jul 26 2018 10:26:28 GMT+0200 (CEST)",
+        "author": {
+          "id": "68480d6a-3e04-57e2-91c8-45edb3081e29",
+          "name": "Pascale Hartmann",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/scips/128.jpg"
+        },
+        "body": "Kafzeh ha sebiuv baos cijizlet pejnu vuuhak ve apalu timiseb zunsasuz juw hebogu urlino."
+      },
+      {
+        "id": "f3883d62-99a5-594b-b2bb-60c79de45a3e",
+        "created_time": "Mon Jul 16 2018 05:20:54 GMT+0200 (CEST)",
+        "author": {
+          "id": "80905423-0b72-5d65-9441-8aa9ac94c4b6",
+          "name": "Modesta Ratke",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/stushona/128.jpg"
+        },
+        "body": "Dujinfis mehej bupzi galbedga ba hotwual motu dozpe kiopu rowuzjo mi egjum fotoboj ronozaci tucinova gobom ije voiga."
+      },
+      {
+        "id": "fe0522eb-1369-5aa9-8316-725484715726",
+        "created_time": "Sat Apr 27 2019 06:56:18 GMT+0200 (CEST)",
+        "author": {
+          "id": "29de1fbf-68ac-59c8-83ff-aab9ddb4ec21",
+          "name": "Joyce Kautzer",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/derekcramer/128.jpg"
+        },
+        "body": "Gawkuro dij cobcahov zo lukerhek lukammi japoed riban coub bobhe tu nik."
+      },
+      {
+        "id": "1815eaef-2803-5d6a-afef-463ee1c904fd",
+        "created_time": "Thu Dec 27 2018 03:29:06 GMT+0100 (CET)",
+        "author": {
+          "id": "d374d155-6897-50d1-a427-b7a6791af1cf",
+          "name": "Candice Morissette",
+          "avatar_url": "https://s3.amazonaws.com/uifaces/faces/twitter/emsgulam/128.jpg"
+        },
+        "body": "Gepesza rores sunkuf igedim pasvi defurru lenija epu bakooco hif rib peumeso pansaemu urowa dubcehab conokwu azwu ke."
+      }
+    ]
+  }
