@@ -11,8 +11,8 @@ suite('TweetList', () => {
         const wrapper = mount(TweetList, {
             propsData: {
                 tweets: [
-                    {id: '1', body: 'test tweet 1'},
-                    {id: '2', body: 'test tweet 2'}
+                    {id: '1', body: 'test tweet 1', author: {name: 'John'}},
+                    {id: '2', body: 'test tweet 2', author: {name: 'Ala'}}
                 ]
             },
             stubs: {

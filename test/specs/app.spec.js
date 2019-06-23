@@ -1,7 +1,7 @@
 // @ts-check
 import { assert } from 'chai';
 import { mount } from '@vue/test-utils';
-import nock from 'nock';
+//import nock from 'nock';
 
 import App from "@/components/app";
 import TweetList from "@/components/tweet-list";
@@ -27,14 +27,14 @@ suite('App', () => {
         });
 
         // szukamy, gdzie jest fetchTweets()
-        console.log("wrapper", wrapper)
-        console.log('--------------------------------------')
-        console.log("wrapper vm", wrapper.vm);
-        console.log('--------------------------------------')
-        console.log("wrapper element", wrapper.element);
-        console.log('--------------------------------------')
-        console.log("wrapper options", wrapper.options);
-        console.log('--------------------------------------')
+        // console.log("wrapper", wrapper)
+        // console.log('--------------------------------------')
+        // console.log("wrapper vm", wrapper.vm);
+        // console.log('--------------------------------------')
+        // console.log("wrapper element", wrapper.element);
+        // console.log('--------------------------------------')
+        // console.log("wrapper options", wrapper.options);
+        // console.log('--------------------------------------')
 
         // sprawdzamy, czy fetchTweets() jest funkcją:
         assert.isFunction(wrapper.vm.fetchTweets);
@@ -58,9 +58,5 @@ suite('App', () => {
         const response = await ft();
         console.log(response); // JSON
         assert.lengthOf(response, 1);
-
-
-
-        
     })
 })
